@@ -11,9 +11,9 @@ export default async function CategoryBeat(props: any) {
 
         <HomeTemplate>
         <div className="overflow-x-auto">
-          <h1 className='mb-4 uppercase'>Beats-{props.params.category}</h1>
+          <h1 className='mb-4 text-lg uppercase'>Beats-{props.params.category}</h1>
           
-          <table className="table table-xs">
+          <table className="table table-sm">
             <thead>
               <tr>
                 <th></th>
@@ -25,7 +25,6 @@ export default async function CategoryBeat(props: any) {
               </tr>
             </thead>
             <tbody>
-
                 {beats.map((beat: any) => (
                 <tr key={beat.id}>
                     <th>{beat.id}</th>
