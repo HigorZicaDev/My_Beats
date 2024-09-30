@@ -1,4 +1,5 @@
 import HomeTemplate from "@/components/Layout/HomeTemplate";
+import Image from "next/image";
 
 export default function Me() {
     return (
@@ -6,7 +7,7 @@ export default function Me() {
             <div className="flex gap-4">
                 <div className="avatar">
                     <div className="w-24 rounded">
-                        <img src="https://avatars.githubusercontent.com/u/165382509?v=4" />
+                        <Image src="https://avatars.githubusercontent.com/u/165382509?v=4" alt="Image Profile" />
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center">

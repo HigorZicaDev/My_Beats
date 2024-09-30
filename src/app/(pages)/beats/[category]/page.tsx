@@ -1,7 +1,8 @@
 import HomeTemplate from "@/components/Layout/HomeTemplate";
 import getAllSongsByCategory from "@/data/service/getAllSongsByCategory";
-// import { IconPlayerPlay } from "@tabler/icons-react";
 
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default async function CategoryBeat(props: any) {
     const beats = await getAllSongsByCategory(props.params.category);
     // console.log(beats);
