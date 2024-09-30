@@ -26,6 +26,14 @@ body {
   }
 }
 
+summary::after {
+  color: #fff;
+}
+
+summary::-webkit-details-marker {
+  color: #fff;
+}
+
 ul.tree,
 ul.tree ul {
   list-style:none;

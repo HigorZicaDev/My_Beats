@@ -21,7 +21,7 @@ export default async function Menu() {
                     <li>
                         <details open>
                         <summary>
-                            <MenuItem texto="My Files" href="#" icone={IconFolder} />
+                            <MenuItem texto="Beats" href="#" icone={IconFolder} />
                         </summary>
                         <ul>
                             <li>
@@ -42,6 +42,32 @@ export default async function Menu() {
 
                                     ))}
                                     
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                        <summary>
+                            <MenuItem texto="Vocals" href="#" icone={IconFolder} />
+                        </summary>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>
+                                    <MenuItem texto="Categories" href="#" icone={IconFolder} />
+                                    
+                                    </summary>
+                                    <ul>
+                                        <li>
+                                            <MenuItem 
+                                                texto={`Vocal Cappella`}  // Template literal para o texto
+                                                href={`/vocals/cappella`}  // Template literal para a URL
+                                                icone={IconMusic} 
+                                            />
+                                        </li>                                    
                                     </ul>
                                 </details>
                             </li>

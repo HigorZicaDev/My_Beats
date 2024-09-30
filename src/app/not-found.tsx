@@ -13,7 +13,7 @@ export default function NotFound() {
                 exploradores se perdem às vezes! 🧭
             </p>
 
-            <Link href="/" className="bg-blue-500 py-2 px-4 rounded-md">
+            <Link href="/" className="bg-blue-500 text-white py-2 px-4 rounded-md">
                 Voltar
             </Link>
         </div>
