@@ -1,6 +1,6 @@
 import HomeTemplate from "@/components/Layout/HomeTemplate";
 
-export default function Me(props: any) {
+export default function Me() {
     return (
         <HomeTemplate>
             <div className="flex gap-4">

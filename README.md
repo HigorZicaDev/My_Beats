@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+```markdown
+# My Beats
 
-First, run the development server:
+Welcome to <strong>My Beats</strong> , your go-to platform for discovering and sharing high-quality beats and music samples—completely free! Designed especially for DJs and music creators, our site is dedicated to supporting the free music community. Whether you're looking for fresh sounds to elevate your mix or want to contribute your own creations, My Beats is the 
+        perfect place to connect with like-minded artists and foster creativity without limits. Dive in, explore, and start creating!
+
+## Fonctionnalités
+
+- **Page principale** : Permet aux utilisateurs de se trouver beats and samples musicales.
+
+## Technologies utilisées
+
+- **TSX** : Utilisé pour la structure et le contenu des pages.
+- **CSS Tailwind** : Utilisé pour les styles avec des fonctionnalités avancées telles que les variables et les mixins.
+
+## Arborescence du projet
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── page.tsx     
+├── layout.tsx   
+├── assets/      
+├── pages/       
+       ├── beats/
+            ├── [category]/
+                ├── page.tsx 
+└── README.md        
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clonez le dépôt sur votre machine locale :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/HigorZicaDev/my-beats
+   ```
 
-## Learn More
+2. Accédez au dossier du projet :
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   cd my-beats
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start Application :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+## Améliorations possibles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Ajouter Authentication des utilisateurs et profiles.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Auteur
+
+- **Higor Zica** - Développeur
+
+## License
+
+```
