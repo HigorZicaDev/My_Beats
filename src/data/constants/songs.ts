@@ -64,7 +64,52 @@ const songs: Song[] = [
         author: "Hz",
         likes: 35,
         dowloads: 35
-    }
+    },
+    {
+        id: 8,
+        name: "Beat Funk 07",
+        category: "funk",
+        url: "/data/uploads/beat-brazil-funk-drums.wav",
+        author: "Hz",
+        likes: 35,
+        dowloads: 35
+    },
+    {
+        id: 9,
+        name: "Beat Funk 08",
+        category: "funk",
+        url: "/data/uploads/beat-brazillian-funk-drums.wav",
+        author: "Hz",
+        likes: 35,
+        dowloads: 35
+    },
+    {
+        id: 10,
+        name: "Beat Funk 09",
+        category: "funk",
+        url: "/data/uploads/beat-calma-brazil-funk.wav",
+        author: "Hz",
+        likes: 35,
+        dowloads: 35
+    },
+    {
+        id: 11,
+        name: "Beat Funk 10",
+        category: "funk",
+        url: "/data/uploads/beat-paqueta-brazillian-funk.wav",
+        author: "Hz",
+        likes: 35,
+        dowloads: 35
+    },
+    {
+        id: 12,
+        name: "Beat Funk 11",
+        category: "funk",
+        url: "/data/uploads/beat-tumtum-brazil-type.wav",
+        author: "Hz",
+        likes: 35,
+        dowloads: 35
+    },
 
 ];
 

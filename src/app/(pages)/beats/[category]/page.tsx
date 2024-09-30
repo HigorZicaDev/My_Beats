@@ -14,9 +14,7 @@ export default async function CategoryBeat(props: any) {
           <table className="table table-sm">
             <thead>
               <tr>
-                <th></th>
                 <th>Artist Name</th>
-                <th>Category</th>
                 <th>Likes</th>
                 <th>Dowloads</th>
                 <th>Action</th>
@@ -25,9 +23,7 @@ export default async function CategoryBeat(props: any) {
             <tbody>
                 {beats.map((beat: any) => (
                 <tr key={beat.id}>
-                    <th>{beat.id}</th>
                     <td>{beat.name}</td>
-                    <td>{beat.category}</td>
                     <td>
                       <div className="flex gap-3">
                       <label className="swap">
