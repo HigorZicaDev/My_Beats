@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 interface MenuItemProps {
+    /* eslint-disable @typescript-eslint/no-explicit-any */
     icone?: any
     texto: string
     href: string
