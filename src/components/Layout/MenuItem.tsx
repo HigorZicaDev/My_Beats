@@ -6,6 +6,7 @@ interface MenuItemProps {
     href: string
 }
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function MenuItem(props: MenuItemProps) {
     return (
         <div className="flex items-center gap-2 p-2 hover:bg-black/30">

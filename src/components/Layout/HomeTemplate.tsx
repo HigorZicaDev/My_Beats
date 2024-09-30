@@ -2,6 +2,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Footer from './Footer'
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function HomeTemplate(props: any) {
     return (
         <div className="flex flex-col h-screen">
