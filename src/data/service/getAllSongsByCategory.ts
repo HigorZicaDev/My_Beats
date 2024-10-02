@@ -1,10 +1,20 @@
 'use server';
-import songs from "../constants/songs";
-import { delay } from "./utils";
 
 export default async function getAllSongsByCategory(category: string) {
-    await delay(1000);
-    const beats = songs.filter((s) => s.category === category)
+    const res = await fetch('http://127.0.0.1:8000/api/songs?page=1', {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      cache: 'no-store', // Para garantir que o fetch sempre faça uma requisição fresh
+    });
+  
+    if (!res.ok) {
+      throw new Error('Falha ao buscar músicas');
+    }
+  
+    const data = await res.json();
+    // return data.member; // Retorna apenas a lista de músicas
+    const beats = data.member.filter((s:any) => s.category === category)
     return beats;
-
 }
